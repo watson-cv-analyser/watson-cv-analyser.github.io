@@ -1,0 +1,94 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: whitesmoke;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.ibm-nav {
+	z-index: 9999;
+  background: #fff;
+  border-bottom: 1px solid #ececec;
+  border-bottom-color: #c7c7c7;
+  height: 80px;
+	right: 0;
+	width: 100%;
+}
+
+.ibm-home img {
+  float: left;
+  width: 80%;
+  max-width: 130px;
+  height: auto;
+  margin-top: 9px;
+	margin-left: 20px;
+}
+
+.parent-site-name h1 {
+	display: inline-block;
+  font-weight: bolder;
+  color: #545454;
+  font-size: 1.6em;
+  text-align: center;
+  padding-left: 30px;
+  margin-left: 30px;
+  margin-top: 22px;
+  border-left: 1px solid #c7c7c7;
+}
+
+table, th, td {
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  color: #ffffff;
+  background: #408bfc;
+  padding: 20px 0 20px 0;
+}
+
+table {
+  width: 450px;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 100% !important;
+  max-width: 80%;
+  margin: 4em auto 0 auto;
+}
+
+tr {
+  display: table-row;
+  background: #fff;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+td {
+  font-size: 15px;
+  color: #666666;
+  line-height: 1.2;
+  font-weight: unset !important;
+  padding: 20px 0px 20px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+td:nth-child(1){
+    width: 100px;
+}
+
+td:nth-child(2){
+    width: 100px;
+}
+
+td:nth-child(3){
+    width: 150px;
+}
+
+td:nth-child(4){
+    width: 90px;
+}

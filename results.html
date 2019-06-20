@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../static/stylesheets/results.css">
+    <!-- <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheets/results.css') }}"/> -->
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body onload="CreateTableFromJSON()" value="Create Table From JSON">
+
+    <div class="ibm-nav">
+      <a class="navigation" href="index.html">
+        <div class="ibm-home">
+          <img src="../static/images/ibm_logo.png" class="img-fluid">
+        </div>
+      </a>
+      <div class="ibm-parent-site-name">
+        <div class="parent-site-name">
+            <h1>CV Analyser</h1>
+        </div>
+      </div>
+    </div>
+
+    <p id="showData"></p>
+
+  <script src="../static/javascript/results.js"></script>
+  <!-- <script type="text/javascript">
+  const myData = {{data}};
+  </script> -->
+
+
+  </body>
+
+  </html>
